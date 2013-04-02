@@ -55,6 +55,22 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="Galeria.aspx" />
+    <Content Include="imagenes\imagen1.jpg" />
+    <Content Include="imagenes\imagen10.jpg" />
+    <Content Include="imagenes\imagen11.jpg" />
+    <Content Include="imagenes\imagen12.jpg" />
+    <Content Include="imagenes\imagen13.jpg" />
+    <Content Include="imagenes\imagen14.jpg" />
+    <Content Include="imagenes\imagen15.jpg" />
+    <Content Include="imagenes\imagen16.jpg" />
+    <Content Include="imagenes\imagen2.jpg" />
+    <Content Include="imagenes\imagen3.jpg" />
+    <Content Include="imagenes\imagen4.jpg" />
+    <Content Include="imagenes\imagen5.jpg" />
+    <Content Include="imagenes\imagen6.jpg" />
+    <Content Include="imagenes\imagen7.jpg" />
+    <Content Include="imagenes\imagen8.jpg" />
     <Content Include="PROTOTIPOS\Prototipo 1\full-width.html" />
     <Content Include="PROTOTIPOS\Prototipo 1\gallery.html" />
     <Content Include="PROTOTIPOS\Prototipo 1\images\black_file.gif" />
@@ -220,6 +236,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Galeria.aspx.cs">
+      <DependentUpon>Galeria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Galeria.aspx.designer.cs">
+      <DependentUpon>Galeria.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -248,6 +271,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="LigthBox\js\" />
     <Folder Include="PROTOTIPOS\Prototipo 2\" />
   </ItemGroup>
   <ItemGroup>
